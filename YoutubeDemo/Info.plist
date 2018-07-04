@@ -41,5 +41,32 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    
+    
+    
+    <key>NSAppTransportSecurity</key>
+        <dict>
+            <key>NSAllowsArbitraryLoads</key>
+            <true/>
+            <key>NSAllowsArbitraryLoadsInWebContent</key>
+            <true/>
+        </dict>
+        
+        
+<!--        <key>NSExceptionDomains</key>-->
+<!--        <dict>-->
+<!--            <key>http://dh2y.iptime.org:8081</key>-->
+<!--            <dict>-->
+<!--                <key>NSExceptionAllowsInsecureHTTPLoads</key>-->
+<!--                <true/>-->
+<!--            </dict>-->
+<!--            <key>www.google.com</key>-->
+<!--            <dict>-->
+<!--                <key>NSExceptionAllowsInsecureHTTPLoads</key>-->
+<!--                <true/>-->
+<!--            </dict>-->
+<!--        </dict>-->
+
 </dict>
+
 </plist>

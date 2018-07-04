@@ -12,6 +12,7 @@
 		B694D70920EBBCDB00642156 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B694D70720EBBCDB00642156 /* Main.storyboard */; };
 		B694D70B20EBBCDB00642156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B694D70A20EBBCDB00642156 /* Assets.xcassets */; };
 		B694D70E20EBBCDB00642156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B694D70C20EBBCDB00642156 /* LaunchScreen.storyboard */; };
+		B694D71620EBDB5600642156 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = B694D71520EBDB5600642156 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B694D70A20EBBCDB00642156 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B694D70D20EBBCDB00642156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B694D70F20EBBCDB00642156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B694D71520EBDB5600642156 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		B694D70220EBBCDB00642156 /* YoutubeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B694D71520EBDB5600642156 /* index.html */,
 				B694D70320EBBCDB00642156 /* AppDelegate.swift */,
 				B694D70520EBBCDB00642156 /* ViewController.swift */,
 				B694D70720EBBCDB00642156 /* Main.storyboard */,
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B694D70E20EBBCDB00642156 /* LaunchScreen.storyboard in Resources */,
+				B694D71620EBDB5600642156 /* index.html in Resources */,
 				B694D70B20EBBCDB00642156 /* Assets.xcassets in Resources */,
 				B694D70920EBBCDB00642156 /* Main.storyboard in Resources */,
 			);
